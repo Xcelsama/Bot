@@ -8,7 +8,7 @@ command(
     desc: "Take webpage screenshot",
     fromMe: isPrivate,
     react: true,
-    type: "download",
+    type: "internet",
   },
   async (msg, match) => {
     let q = match?.trim() || ""
